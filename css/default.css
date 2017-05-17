@@ -1,7 +1,7 @@
 body{
 
     font-family: "Times New Roman"; 
-    color: darkgrey;
+    color: #777;
     font-weight: 800;
     background-color:lightgrey; 
 
@@ -21,6 +21,8 @@ body{
 }
 .machin{
     font-size:16px;
+    clear: both;
+    display: block;
     
 }
 
@@ -32,10 +34,13 @@ ul.dinos {
 
 ul.dinos li {
    float:left;
+   
+   
 }
 
 ul.dinos li figure img{
     text-align: center;
+  
 } 
 
 ul.dinos li figure figcaption {
